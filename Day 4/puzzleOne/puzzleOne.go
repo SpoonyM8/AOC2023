@@ -12,7 +12,6 @@ func main() {
 	file, err := os.Open("./puzzleOneInput.txt")
 	var arr []string
 
-	//var runningTotal int = 0
 	if err != nil {
 		fmt.Println("Awh oh!!")
 	}
